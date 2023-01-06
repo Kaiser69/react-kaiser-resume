@@ -29,10 +29,10 @@
     margin-top: 5.8%;
 }
 
-    #intro-info h1 {
-        font-size: 50px;        
+    #intro-info p {
+        font-size: 40px;        
         font-weight: 600;
-        margin: 0px 0 30px;
+        margin: 20px 0 30px;
         color: var(--secondaryColor);
     }
 
@@ -105,7 +105,7 @@
     
         #intro-info h1 {
             font-size: 25px;
-            margin: 0px 0 20px;
+            margin: 20px 0 20px;
         }
 
         #intro-info span {
@@ -127,7 +127,7 @@
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
 
     section {
-        padding: 0 3em 3em;
+        padding: 0 .3em .3em;
     }
 }
 
@@ -315,6 +315,7 @@
         text-align: start;
         align-self: flex-start;
         width: 90%;
+        margin-bottom: 1.2rem;
     }
  
 
@@ -362,7 +363,7 @@
 }
 
 #delivery p {
-    color: #717171;
+    color: var(--secondaryColor);
     line-height: 1.5;
     text-align: justify;
     align-content: center;

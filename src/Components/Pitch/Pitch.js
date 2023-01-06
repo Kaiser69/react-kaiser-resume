@@ -13,7 +13,7 @@ const Pitch = () => {
     <div id="intro-info" >
         <div >
           <h2 >My work is </h2>
-            <h1>Find the innovative IT solutions, frontend, servers, storage, and software</h1>
+            <p>Find the innovative IT solutions, frontend, servers, storage, and software</p>
          
         </div>
     </div>
@@ -25,7 +25,7 @@ const Pitch = () => {
     
 </section>
 
-  <section id="delivery" className='container' style={{marginBottom:"3rem"}}>
+  <section id="delivery" className='container' >
   <h2 className="sec-heading">User Experience & User Interface Design</h2>
   <div id='delivery-img' className="col-5 delivery-img">
       <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1"
