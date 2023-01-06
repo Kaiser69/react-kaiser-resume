@@ -18,7 +18,7 @@ const ChatEngine = props => {
             className='transition-5'
             style={{
                     height: props.visible ? '100%' : '0px',
-                    zIndex: props.visible ? '100' : '0',
+                    zIndex: props.visible ? '100' : '1',
                     width:'100%',
                     backgroundColor:'white',
                     fontSize:"18px",

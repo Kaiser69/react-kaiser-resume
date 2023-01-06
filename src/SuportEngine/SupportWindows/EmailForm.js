@@ -59,7 +59,8 @@ const EmailForm = props => {
                 ...styles.emailFormWindow,
                 ...{ 
                     height: props.visible ? '100%' : '0px',
-                    opacity: props.visible ? '1' : '0'
+                    opacity: props.visible ? '1' : '0',
+                    
                 }
             }}
         >

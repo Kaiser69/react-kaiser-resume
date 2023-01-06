@@ -175,7 +175,7 @@
         .rightEmail{
             right: 0;
             bottom: 0;
-            z-index: 1;
+            z-index: -1;
 
             .emailAddress{
                 transform: rotate(90deg) translate(-90px, 0px );
