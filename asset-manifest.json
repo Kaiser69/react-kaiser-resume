@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-kaiser-resume/static/css/main.c1b162bb.css",
-    "main.js": "/react-kaiser-resume/static/js/main.9e1cfc23.js",
+    "main.css": "/react-kaiser-resume/static/css/main.51737131.css",
+    "main.js": "/react-kaiser-resume/static/js/main.9976c387.js",
     "static/media/aitech.png": "/react-kaiser-resume/static/media/aitech.5bb46d85c1d978a16cd4.png",
     "static/media/PIZZA.jpg": "/react-kaiser-resume/static/media/PIZZA.7914b999b12d3b9fd88c.jpg",
     "static/media/porfilio.png": "/react-kaiser-resume/static/media/porfilio.4993cc3499376f55934d.png",
     "static/media/appstore.png": "/react-kaiser-resume/static/media/appstore.8f21661fc6623d30037c.png",
     "static/media/ui.png": "/react-kaiser-resume/static/media/ui.e1b1c8904c2d96aae72a.png",
     "static/media/ui_app.png": "/react-kaiser-resume/static/media/ui_app.d6d9fa9162bab0612594.png",
-    "static/media/CV.pdf": "/react-kaiser-resume/static/media/CV.df54b86f3299494bc072.pdf",
+    "static/media/CV.pdf": "/react-kaiser-resume/static/media/CV.e6f4d7675087e24dd38c.pdf",
     "static/media/kai.jpg": "/react-kaiser-resume/static/media/kai.fc6bbc5d314b0e507e5c.jpg",
     "static/media/css.png": "/react-kaiser-resume/static/media/css.f4aa737e890c25896d3e.png",
     "static/media/xd.png": "/react-kaiser-resume/static/media/xd.49ec6c7215e53edaf920.png",
@@ -26,11 +26,11 @@
     "static/media/rbst.png": "/react-kaiser-resume/static/media/rbst.efdec1327625a824a51e.png",
     "static/media/vue.png": "/react-kaiser-resume/static/media/vue.ff6699021ac5c0c89b78.png",
     "index.html": "/react-kaiser-resume/index.html",
-    "main.c1b162bb.css.map": "/react-kaiser-resume/static/css/main.c1b162bb.css.map",
-    "main.9e1cfc23.js.map": "/react-kaiser-resume/static/js/main.9e1cfc23.js.map"
+    "main.51737131.css.map": "/react-kaiser-resume/static/css/main.51737131.css.map",
+    "main.9976c387.js.map": "/react-kaiser-resume/static/js/main.9976c387.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1b162bb.css",
-    "static/js/main.9e1cfc23.js"
+    "static/css/main.51737131.css",
+    "static/js/main.9976c387.js"
   ]
 }
