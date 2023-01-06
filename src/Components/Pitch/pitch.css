@@ -1,0 +1,507 @@
+/*** color and default size**/
+
+:root{
+
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); 
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
+}
+
+#intro {
+    padding-top: 3em;
+    position: relative;
+}
+
+    #intro div {
+        display: inline-table;
+    }
+
+#intro-info {
+    width:50%;
+    float: left;
+    margin-top: 5.8%;
+}
+
+    #intro-info h1 {
+        font-size: 50px;        
+        font-weight: 600;
+        margin: 0px 0 30px;
+        color: var(--secondaryColor);
+    }
+
+    #intro-info h2 {
+        color: var(--primaryColor);
+    }
+
+    #intro-info span {
+        display: block;
+        font-weight: 600;
+        padding: 0 0 55px;
+        font-size: 23px;
+        color: var(--paragraphColor);
+    }
+
+    .brand-btn {
+        text-decoration: none;
+        background-color: none;
+        border:2px solid var(--textColor);
+        color: var(--primaryHover);
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 17px;
+
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .brand-btn:hover, .brand-btn:focus {
+        background-color: transparent;
+        color: #ef4b42;
+        border:2px solid var(--primaryHover);
+       
+    }
+    #development-img {
+        width:40%;
+        text-align: right;
+        align-self: flex-end;
+    }
+    
+ 
+    #development-img img {
+        height:400px;
+        width: 90%;
+    }
+
+/* Desktops and laptops ----------- */  
+@media only screen and (max-width : 1280px) {  
+    #intro-info {
+        width: 40%;
+    }
+    #intro-info h1 {
+        font-size: 36px;
+    }
+    #development-img {
+        width: 60%;
+    }
+    #development-img img {
+        height: 400px;
+    }
+}
+
+/* iPads to Smartphone for Common Elements ----------- */  
+@media only screen and (max-width : 1024px) {
+
+   
+    #intro-info {
+        width: 40%;
+    }
+    
+        #intro-info h1 {
+            font-size: 25px;
+            margin: 0px 0 20px;
+        }
+
+        #intro-info span {
+            font-size: 19px;
+            padding: 0 0 45px;
+        }
+    
+    #development-img {
+        width: 60%;
+    }
+    
+        #development-img img {
+            height: 290px;
+        }    
+    
+}
+
+/* iPads (portrait)----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
+    section {
+        padding: 0 3em 3em;
+    }
+}
+
+/* iPads (landscape) ----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {  
+    
+    section {
+        padding-bottom: 3em;
+    }
+
+
+    
+    #intro {
+        padding-top: 4em;
+        padding-bottom: 3em;
+    }
+    
+    #development-img img {
+        height: 290px;
+    }
+    
+    #intro-info {
+        margin-top: 4.8%;
+    }
+        
+        #intro-info h1 {
+            font-size: 18px;
+            margin: 0px 0 20px;
+        }
+
+        #intro-info span {
+            font-size: 20px;
+            padding: 0 0 45px;
+        }
+
+}
+
+/* Mini Tablet and Big Mobile */
+@media only screen and (min-width : 640px) and (max-width : 760px) and (orientation : landscape) {  
+    
+    section {
+        padding: 0 2em 3em;
+    }
+
+    #intro {
+        padding-bottom: 2em;
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    #intro-info {
+        width: 45%;
+        margin-top: 2.8%;
+    }
+        
+        #intro-info h1 {
+            font-size: 22px;
+            margin: 0px 0 15px;
+        }
+
+        #intro-info span {
+            font-size: 17px;
+            padding: 0 0 35px;
+        }
+
+    #development-img {
+        width: 45%;
+    }
+
+        #development-img img {
+            height: 210px;
+        }
+}
+
+/* Mini Tablet ----------- */  
+@media only screen and (max-width : 600px) {  
+     section {
+        display: block;
+        padding: 0 2em 5em;
+    }
+
+    #intro {
+        padding-bottom:12em;
+        padding-top: 1em;
+    }
+        
+        #intro-info h1 {
+            font-size: 26px;
+        }
+
+        #intro-info span {
+            padding: 0 0 45px;
+            font-size: 20px;
+        }
+
+        #intro-info, #development-img {
+            display: block !important;
+            width: 100%;
+            text-align: center;
+        }
+
+        #intro-tag-btn {
+            position: absolute;
+            display: block !important;
+            bottom: 60px;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen and (max-width : 480px) {  
+
+    #intro {
+        padding: 1em 1em 12em 1em;
+    }
+
+    #development-img img {
+        height: 280px;
+    }
+
+
+    section {
+        padding: 0 1em 3em;
+    }
+
+}
+
+/* Small Devices (portrait and landscape) ----------------- */
+@media only screen and (max-width : 380px) {  
+ 
+    #intro-tag-btn {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #delivery img {
+        height: 230px;
+    }
+
+}
+
+
+/* Small Devices (portrait and landscape) ----------------- */
+@media only screen and (max-width : 380px) {  
+    #development-img img {
+        height: 230px;
+    }
+    
+    #intro-tag-btn {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #delivery img {
+        height: 180px;
+    }
+}
+
+/* X-Tra Small Devices  (portrait and landscape) ----------- */  
+@media only screen and (max-width : 320px) {  
+    #development-img img {
+        height: 210px;
+    } 
+}
+
+
+/***second pitch**/
+
+#delivery {
+    background-color: var(--BgColor);
+
+}
+
+#delivery h2 {
+    color: var(--secondaryColor);
+}
+    
+    #delivery img {
+        height:250px;
+        float: left;
+        text-align: start;
+        align-self: flex-start;
+        width: 90%;
+    }
+ 
+
+    #delivery p {        
+        margin-bottom: 40px;
+        color: var(--paragraphColor);
+        font-size: 1.1rem;
+        font-weight: 500;
+        max-width: 100%;
+        letter-spacing: 1px;
+    }
+
+    .delivery-img {
+        float: left;   
+        padding-bottom: 3rem; 
+    }
+
+
+#delivery .col-5 {
+    width: 40%;
+    display: inline-table;  
+    float: center;
+
+}
+
+    #delivery .col-7 {
+    width: 60%;
+    display: inline-table;
+    float: center;
+    
+}
+
+#delivery .col-7 h3{
+   padding-bottom: 16px;
+   font-weight: 500;
+        font-size: 23px;
+        color: var(--primaryColor);
+}
+
+#delivery .sec-heading {
+    text-align: center;
+    font-size: 40px;
+    padding: 1.5em 0;
+    margin: 0;
+}
+
+#delivery p {
+    color: #717171;
+    line-height: 1.5;
+    text-align: justify;
+    align-content: center;
+}
+
+
+/* iPads to Smartphone for Common Elements ----------- */  
+@media only screen and (max-width : 1024px) {
+
+
+    #delivery .col-5 {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #delivery .col-7 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }  
+  }
+
+/* iPads (portrait)----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
+    section {
+        padding: 0 3em 3em;
+    }
+
+    .sec-heading {
+        padding:1em 0;
+    }
+
+    #delivery img {
+        height: 230px;
+    }
+}
+
+/* iPads (landscape) ----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {  
+    
+    section {
+        padding-bottom: 3em;
+    }
+
+    .sec-heading {
+        padding:1em 0;
+    }
+    
+    .sec-heading {
+        font-size: 30px;
+    }
+}
+
+/* Mini Tablet and Big Mobile */
+@media only screen and (min-width : 640px) and (max-width : 760px) and (orientation : landscape) {  
+    
+    section {
+        padding: 0 2em 3em;
+    }
+
+    .sec-heading {
+        font-size: 26px;
+        padding:1em 0;
+    }
+
+    #delivery h2 {
+        font-size: 24px;
+    }
+ }
+
+/* Mini Tablet ----------- */  
+@media only screen and (max-width : 600px) {  
+     section {
+        display: block;
+        padding: 0 2em 5em;
+    }
+
+    .sec-heading {
+        font-size: 26px;
+    }
+    
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .sec-heading {
+        padding: 1em 0;
+    }
+
+    .delivery-img {
+        float: none;
+        text-align: center;
+    }
+
+    #delivery img {
+        height: 300px;
+    }
+
+    #delivery h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+}
+
+/* Smartphones (portrait and landscape) ----------- */  
+@media only screen and (max-width : 480px) {  
+   
+    section {
+        padding: 0 1em 3em;
+    }
+
+    .sec-heading {
+        padding: 1em 0;
+    }
+
+    #delivery img {
+        height: 230px;
+    }
+
+    .col-6 {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+/* Small Devices (portrait and landscape) ----------------- */
+@media only screen and (max-width : 380px) {  
+ 
+    #delivery img {
+        height: 180px;
+    }
+
+}

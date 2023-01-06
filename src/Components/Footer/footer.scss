@@ -1,0 +1,32 @@
+/*** color and default size**/
+
+:root{
+
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); ;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
+}
+
+
+.footer{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background: var(--projectCardColor);
+    margin-top: 1rem;
+    padding: 1rem 0;
+
+    span{
+        text-align: center;
+        color: var(--secondaryColor);
+        opacity: .5;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,80 @@
+/*** color and default size**/
+
+:root{
+
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); 
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
+}
+
+
+
+@media screen and (min-width: 769px){
+    .toggleNavBar, .closeNavbar{
+        display: none;
+    }
+
+    .header{
+        padding: 2.5rem 2rem;
+        .navBar{
+            .navList{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                padding: 0 1rem;
+
+                border-bottom: 3px solid transparent;
+
+                .navItem{
+                    padding: 0 1rem;
+
+                    .navLink{
+                        color: var(--textColor);
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                        transition: width 0.7s ease, background-color ;
+                        &:hover{
+                            color: var(--primaryColor);
+                        }
+
+                        .headerNumber{
+                            color: var(--primaryHover)
+                        }
+                    }
+                }
+
+                .btn{
+                    margin-left: 1rem;
+                    a{
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 960px){
+    .header{
+        padding: 2.5rem 5rem;
+
+        .navBar{
+            .navList{
+                padding: 0 2rem;
+                .navItem{
+                    padding: 0 2rem;
+                }
+            }
+        }
+    }
+
+}

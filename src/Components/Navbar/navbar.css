@@ -1,0 +1,132 @@
+/*** color and default size**/
+
+:root{
+
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); ;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
+}
+
+
+.header {
+    /**    background: var(--projectCardColor);**/
+    background: var(--projectCardColor);
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: var(--headerHeight);
+    padding: 2rem;
+    z-index: 1000;
+}
+
+.activeHeader{
+    background-color: rgba(32, 1, 67, 0.904);
+    box-shadow: 0 2px 4px rgba(38, 2, 54, 0.904);
+}
+
+.logo a{
+    color: var(--textColor);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.navItem:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .navItem:hover:after {
+
+    width: 100%;
+    background: var(--primaryHover);
+  }
+  
+
+
+@media screen and (max-width:
+768px){
+    .navBar{
+           /**    background: var(--projectCardColor);**/
+           background: var(--projectCardColor);
+        position: absolute;
+        height: max-content;
+        width: 80%;
+        border-radius:  1rem;
+        padding: 1rem;
+        top: -100rem;
+        left: 50%;
+        transform: translate(-50%);
+        box-shadow: 0 2px 4px rgb(2, 15, 29, 0.904);
+        z-index: 1000;
+    }
+
+    .navList{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 1rem 0; 
+
+    }
+
+
+    .navItem{
+        padding: 1rem 0;
+    }
+
+    .navLink{
+        color: var(--textColor);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .navLink:hover{
+      color: var(--primaryColor);
+    }
+
+    .headerNumber{
+        color: var(--primaryHover);
+    }
+
+    .btn{
+        margin-top:  1rem;
+    }
+    a{
+        color: var(--textColor);
+    }
+
+    .closeNavbar{
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .icon:hover{
+        color: var(--primaryColor);
+    }
+
+    .activeNavBar{
+        top: 6rem;
+      }
+
+}
+
+
+
+

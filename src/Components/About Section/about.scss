@@ -1,0 +1,133 @@
+/*** color and default size**/
+
+:root{
+
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); ;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
+}
+
+
+.about{
+    .sectionContent{
+        .textSection{
+            h4{
+                color: var(--secondaryColor);
+                font-size: 1.1rem;
+                font-weight: 500;
+                max-width: 100%;
+                letter-spacing: 1px;
+                margin: auto;
+            }
+
+            .aboutBtn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2rem;
+                background: none;
+                border: 1.1px solid #fff;
+                color: #fff;
+                width: max-content;
+                padding: 10px 15px;
+                border-radius: 26px;
+
+                &:hover{
+                    color: var(--textColor);
+                    border: 1.1px solid var(--primaryHover);
+                }
+                a{
+                    color: var(--primaryColor);
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    gap: .5rem;
+                }
+
+                a:hover{
+                  color: var(--textColor);
+        
+                }
+            }
+        }
+        .aboutImgDiv{
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 2rem auto 2rem;
+            border-radius: 50%;
+            overflow: hidden;
+            display: grid;
+            border: 2px dashed var(--primaryColor);
+
+        }
+    }
+
+    .aboutImgDiv::before{
+        content: 'Hover Me';
+        font-size: 1.6rem;
+        color: var(--textColor);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Inconsolate', monospace;
+        justify-self: center;
+        align-self: center;
+        background: hsl(223, 43%, 34%);
+        height: 97%;
+        width: 97%;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: all .3s;
+        mix-blend-mode: screen;
+
+    }
+
+    .aboutImgDiv:hover.aboutImgDiv::before{
+        height: 0%;
+    }
+}
+
+@media screen and (min-width:769px){
+    .about{
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (min-width:960px){
+    .about{
+     
+        .sectionContent{
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            margin: auto;
+        }
+    }
+
+}
+
+@media screen and (min-width:1240px){
+    .about{
+     
+        .sectionContent{
+           .textSection{
+            h4{
+                font-size: 1.2rem;
+            }
+           }
+        }
+    }
+
+}

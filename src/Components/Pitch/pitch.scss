@@ -1,0 +1,27 @@
+#development-img img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.75;
+    &:hover {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
+
+  .delivery-img img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.75;
+    &:hover {
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+  }
