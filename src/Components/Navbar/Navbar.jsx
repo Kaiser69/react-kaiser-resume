@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <header className={activeHeader}>
         <div className='logoDiv'>
-        <h1 className='logo'><a href='#home'>Kaiser Ai.</a>
+        <h1 className='logo'><a href='#home'>Kaiser <tag style={{color:"#00eaff"}}>Ai.</tag> </a>
          </h1>
         </div>    
       <div className={active}>
@@ -58,7 +58,7 @@ const Navbar = () => {
               </li>
               
               <button className='btn' >
-                <a href="https://kaiser69.github.io/resume.io/" target="_blank" rel="noreferrer" 
+                <a href="https://kaiser69.github.io/react-kaiser-resume/" target="_blank" rel="noreferrer" 
                  className="href">Resume</a>
               </button>
 
