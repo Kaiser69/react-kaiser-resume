@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-kaiser-resume/static/css/main.ae2997f4.css",
-    "main.js": "/react-kaiser-resume/static/js/main.28d57c0c.js",
+    "main.js": "/react-kaiser-resume/static/js/main.963dc563.js",
     "static/media/aitech.png": "/react-kaiser-resume/static/media/aitech.5bb46d85c1d978a16cd4.png",
     "static/media/PIZZA.jpg": "/react-kaiser-resume/static/media/PIZZA.7914b999b12d3b9fd88c.jpg",
     "static/media/porfilio.png": "/react-kaiser-resume/static/media/porfilio.4993cc3499376f55934d.png",
@@ -27,10 +27,10 @@
     "static/media/vue.png": "/react-kaiser-resume/static/media/vue.ff6699021ac5c0c89b78.png",
     "index.html": "/react-kaiser-resume/index.html",
     "main.ae2997f4.css.map": "/react-kaiser-resume/static/css/main.ae2997f4.css.map",
-    "main.28d57c0c.js.map": "/react-kaiser-resume/static/js/main.28d57c0c.js.map"
+    "main.963dc563.js.map": "/react-kaiser-resume/static/js/main.963dc563.js.map"
   },
   "entrypoints": [
     "static/css/main.ae2997f4.css",
-    "static/js/main.28d57c0c.js"
+    "static/js/main.963dc563.js"
   ]
 }
