@@ -19,7 +19,7 @@ export const styles = {
         left: 'calc(-100% - 44px - 28px)', 
         top: 'calc(50% - 24px)', 
         // Layering
-        zIndex: '10000',
+        zIndex: '1000',
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
         // Border
         padding: '12px 12px 12px 16px',
