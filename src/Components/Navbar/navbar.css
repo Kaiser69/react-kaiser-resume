@@ -1,82 +1,129 @@
-import React, {useState} from 'react'
-import './navbar.css'
-import './Navbar.scss'
-import {AiFillCloseCircle} from 'react-icons/ai';
-import {TbGridDots} from 'react-icons/tb'
+/*** color and default size**/
 
-const Navbar = () => {
+:root{
 
-  const [active, setActive] = useState('navBar')
-
-  const showNavBar = () =>{
-    setActive('navBar activeNavBar')
-  }
-
-
-  const removeNavBar = () =>{
-    setActive('navBar')
-  }
-  
-// statement to add a background color to header. 
-  const [activeHeader, setActiveHeader] = useState('header')
-  const addBg = () =>{
-    if(window.scrollY >= 10){
-      setActiveHeader('header activeHeader')
-    }
-    else{
-      setActiveHeader('header')
-    }
-  }
-
-  window.addEventListener('scroll', addBg)
-
-  return (
-    <header className={activeHeader}>
-        <div className='logoDiv'>
-        <h1 className='logo'><a href='#home'>Kaiser Ai.</a>
-         </h1>
-        </div>    
-      <div className={active}>
-        <ul onClick={removeNavBar} className="navList">
-              <li className="navItem">
-                  <a href="#about" className="navLink">
-                  
-                  <span className='headerNumber'>1 .</span> About
-                  </a>
-              </li>
-              <li className="navItem">
-                  <a href="#skill" className="navLink">
-                  <span className='headerNumber'>2 .</span> Skills</a>
-              </li>
-              <li className="navItem">
-                  <a href="#project" className="navLink">
-                  <span className='headerNumber'>3 .</span> Projects </a>
-              </li>
-              <li className="navItem">
-                  <a href="#contact" className="navLink">
-                  <span className='headerNumber'>4 .</span> Contact</a>
-              </li>
-              
-              <button className='btn' >
-                <a href="https://kaiser69.github.io/resume.io/" target="_blank" rel="noreferrer" 
-                 className="href">Resume</a>
-              </button>
-
-             
-        </ul>
-        <div onClick={removeNavBar}
-        className="closeNavbar">
-              <AiFillCloseCircle className="icon" />
-              </div>
-      </div>
-
-
-        <div onClick={showNavBar} className="toggleNavBar">
-          <TbGridDots className="icon" />
-        </div>
-
-    </header>
-  )
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #7a39e0 !important;;
+    --formColor:rgb(63, 8, 109); 
+    --projectCardColor: rgb(80, 10, 138); ;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+ 
 }
 
-export default Navbar
+
+.header {
+    /**    background: var(--projectCardColor);**/
+    background: var(--projectCardColor);
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: var(--headerHeight);
+    padding: 2rem ;
+    z-index: 9999;
+}
+
+.activeHeader{
+    background-color: rgba(32, 1, 67, 0.904);
+    box-shadow: 0 2px 4px rgba(38, 2, 54, 0.904);
+}
+
+.logo a{
+    color: var(--textColor);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.navItem:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .navItem:hover:after {
+
+    width: 100%;
+    background: var(--primaryHover);
+  }
+  
+
+
+@media screen and (max-width:
+768px){
+    .navBar{
+           /**    background: var(--projectCardColor);**/
+           background: var(--projectCardColor);
+        position: absolute;
+        height: max-content;
+        width: 80%;
+        border-radius:  1rem;
+        padding: 1rem;
+        top: -100rem;
+        left: 50%;
+        transform: translate(-50%);
+        box-shadow: 0 2px 4px rgb(2, 15, 29, 0.904);
+        z-index: 9999;
+    }
+
+    .navList{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 1rem 0; 
+
+    }
+
+
+    .navItem{
+        padding: 1rem 0;
+    }
+
+    .navLink{
+        color: var(--textColor);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .navLink:hover{
+      color: var(--primaryColor);
+    }
+
+    .headerNumber{
+        color: var(--primaryHover);
+    }
+
+    .btn{
+        margin-top:  1rem;
+    }
+    a{
+        color: var(--textColor);
+    }
+
+    .closeNavbar{
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .icon:hover{
+        color: var(--primaryColor);
+    }
+
+    .activeNavBar{
+        top: 6rem;
+      }
+
+}
+
