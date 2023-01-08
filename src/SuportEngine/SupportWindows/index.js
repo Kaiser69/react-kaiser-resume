@@ -15,7 +15,7 @@ const SupportWindow = props => {
             style={{
                 ...styles.supportWindow,
                 ...{ opacity: props.visible ? '1' : '0' },
-               
+                zIndex:'1000'
             }}
         >
             <EmailForm 
