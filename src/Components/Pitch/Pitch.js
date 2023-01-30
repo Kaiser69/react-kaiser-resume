@@ -1,6 +1,6 @@
 import React from 'react';
-import Developer from '../../img/developer.png'
-import Uidesign from '../../img/uidesign.png'
+import Developer from '../../img/developer.png';
+import Uidesign from '../../img/uidesign.png';
 
 import './pitch.css'
 import './pitch.scss'
