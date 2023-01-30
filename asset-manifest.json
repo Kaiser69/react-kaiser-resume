@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-kaiser-resume/static/css/main.ae2997f4.css",
-    "main.js": "/react-kaiser-resume/static/js/main.25ed3044.js",
+    "main.css": "/react-kaiser-resume/static/css/main.8141a975.css",
+    "main.js": "/react-kaiser-resume/static/js/main.66ca4622.js",
     "static/media/aitech.png": "/react-kaiser-resume/static/media/aitech.5bb46d85c1d978a16cd4.png",
     "static/media/PIZZA.jpg": "/react-kaiser-resume/static/media/PIZZA.7914b999b12d3b9fd88c.jpg",
     "static/media/porfilio.png": "/react-kaiser-resume/static/media/porfilio.4993cc3499376f55934d.png",
     "static/media/appstore.png": "/react-kaiser-resume/static/media/appstore.8f21661fc6623d30037c.png",
     "static/media/ui.png": "/react-kaiser-resume/static/media/ui.e1b1c8904c2d96aae72a.png",
     "static/media/ui_app.png": "/react-kaiser-resume/static/media/ui_app.d6d9fa9162bab0612594.png",
+    "static/media/developer.png": "/react-kaiser-resume/static/media/developer.79af9a19e72e3bb9401e.png",
     "static/media/CV.pdf": "/react-kaiser-resume/static/media/CV.ca35fc0b7d8a32275f0c.pdf",
     "static/media/kai.jpg": "/react-kaiser-resume/static/media/kai.fc6bbc5d314b0e507e5c.jpg",
     "static/media/css.png": "/react-kaiser-resume/static/media/css.f4aa737e890c25896d3e.png",
@@ -19,6 +20,7 @@
     "static/media/sass.png": "/react-kaiser-resume/static/media/sass.bf645daa77dfcbc82471.png",
     "static/media/nodejs.png": "/react-kaiser-resume/static/media/nodejs.bc4b43cd5f20ba305059.png",
     "static/media/jquery.png": "/react-kaiser-resume/static/media/jquery.6c97b0df27ea573c492f.png",
+    "static/media/uidesign.png": "/react-kaiser-resume/static/media/uidesign.ad457732e904f041d2a9.png",
     "static/media/sql.png": "/react-kaiser-resume/static/media/sql.97dcf359dd133fed966c.png",
     "static/media/bst.png": "/react-kaiser-resume/static/media/bst.2800bb3ed6b40097a8d7.png",
     "static/media/Swift.png": "/react-kaiser-resume/static/media/Swift.1e85182500af8e8d5a58.png",
@@ -26,11 +28,11 @@
     "static/media/rbst.png": "/react-kaiser-resume/static/media/rbst.efdec1327625a824a51e.png",
     "static/media/vue.png": "/react-kaiser-resume/static/media/vue.ff6699021ac5c0c89b78.png",
     "index.html": "/react-kaiser-resume/index.html",
-    "main.ae2997f4.css.map": "/react-kaiser-resume/static/css/main.ae2997f4.css.map",
-    "main.25ed3044.js.map": "/react-kaiser-resume/static/js/main.25ed3044.js.map"
+    "main.8141a975.css.map": "/react-kaiser-resume/static/css/main.8141a975.css.map",
+    "main.66ca4622.js.map": "/react-kaiser-resume/static/js/main.66ca4622.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae2997f4.css",
-    "static/js/main.25ed3044.js"
+    "static/css/main.8141a975.css",
+    "static/js/main.66ca4622.js"
   ]
 }
