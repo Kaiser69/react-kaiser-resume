@@ -1,4 +1,6 @@
 import React from 'react';
+import Developer from '../../img/developer.png'
+import Uidesign from '../../img/uidesign.png'
 
 import './pitch.css'
 import './pitch.scss'
@@ -19,7 +21,7 @@ const Pitch = () => {
     </div>
 
     <div id="development-img" >
-        <img src="https://www.dropbox.com/s/7hwnjccu15vt90e/mobileDevlopment.svg?raw=1" 
+        <img src={Developer}
             alt="Mobile App Development" title="Mobile App Development" />
     </div>
     
@@ -28,8 +30,8 @@ const Pitch = () => {
   <section id="delivery" className='container' >
   <h2 className="sec-heading">User Experience & User Interface Design</h2>
   <div id='delivery-img' className="col-5 delivery-img">
-      <img src="https://www.dropbox.com/s/ipx91osglyczpdt/delivery_experience.svg?raw=1"
-           alt="Productivity Delivering Experience" title="Delivering Experience Since 2009"/>
+      <img src={Uidesign}
+           alt="Productivity Delivering Experience" title="network.cookie.sameSite.noneRequiresSecure" />
   </div>
   <div className="col-7">
       <h3>Accelerating your business growth with Digital Experiences</h3>
